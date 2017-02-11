@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "vue": "^2.1.10",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "watch": "webpack -d -w",
+    "webpack": "webpack",
+    "serve": "http-server public -c 1"
+  }
+}
